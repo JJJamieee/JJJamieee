@@ -43,3 +43,7 @@ div.modal-body>p {
 h5.modal-title {
     color: #2c4e87;
 }
+
+.modal {
+    margin-top: 50px;
+}
