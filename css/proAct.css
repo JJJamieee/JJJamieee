@@ -1,0 +1,45 @@
+div#pro-act>div>h1 {
+    margin-top: 30px;
+    text-align: center;
+    color: #2c4e87;
+}
+
+.card {
+    height: 290px;
+    width: 270px;
+    color: #2c4e87;
+    box-shadow: 4px 4px 2px 0px #c3c3c3;
+    cursor: pointer;
+}
+
+div.card>img {
+    height: 200px;
+}
+
+.card-title {
+    margin-top: 10px;
+}
+
+.card-hover {
+    height: 320px;
+    width: 330px;
+    background-color: #148cea;
+    color: #ff938c;
+}
+
+div.modal-body>img {
+    width: 600px;
+    margin-top: 10px;
+}
+
+div.modal-body {
+    text-align: center;
+}
+
+div.modal-body>p {
+    text-align: left;
+}
+
+h5.modal-title {
+    color: #2c4e87;
+}

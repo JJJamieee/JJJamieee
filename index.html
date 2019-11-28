@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lin, Chia-Hsun's personal page</title>
+    <!-- 引用 Bootstrap 的 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- 引用 Google 中文字型 -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Noto+Serif+TC&display=swap" rel="stylesheet">
+    <!-- 引用 font-awesome ICON 的 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <!-- 引用自訂的CSS -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/aboutMe.css">
+    <link rel="stylesheet" href="./css/proAct.css">
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+
+<body data-spy="scroll" data-target="#nav">
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-expand-lg navbar-dark nav-color1" id="nav">
+        <div class="container">
+            <div class="col-1">
+                <a class="navbar-brand" href="./index.html"><i class="fas fa-cat"></i> CHL</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="col-11">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutMe">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pro-act">Project & Activities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 網頁內容 -->
+    <!-- Home -->
+    <div class="row" id="home">
+        <div id="color-box"></div>
+        <div id="color-box2"></div>
+        <div class="col-sm-4" id="intro">
+            <p>嗨！</p>
+            <p>我是<span class="name">林佳勳</span>,</p>
+            <p><span class="name">Lin, Chia-Hsun</span>,</p>
+            <p>來自國立台灣大學資管系</p>
+        </div>
+        <div class="col-sm-8">
+            <img src="./img/person1.jpg" alt="person1" id="photo1" class="p11">
+            <img src="./img/person2.png" alt="person2" id="photo2" class="p21">
+        </div>
+    </div>
+
+    <!-- About Me -->
+    <div class="row" id="aboutMe">
+        <div class="container">
+            <h1>About Me</h1>
+            <div class="row">
+                <div class="col-sm">
+                    學歷
+                    <ul>
+                        <li>高雄女中</li>
+                        <li>國立台灣大學資管系</li>
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    社團與活動
+                    <ul>
+                        <li>熱門音樂社</li>
+                        <li>資管系女籃</li>
+                        <li>2019資管營工人</li>
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    技能
+                    <ul>
+                        <li>C++</li>
+                        <li><i class="fab fa-python"></i> Python</li>
+                        <li>R</li>
+                        <li><i class="fab fa-html5"></i>HTML / <i class="fab fa-css3-alt"></i>CSS</li>
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    語言能力
+                    <ul>
+                        <li>中文：母語</li>
+                        <li>台語：母語</li>
+                        <li>英文：多益金色證書(870/990)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project & Activities -->
+    <div class="row" id="pro-act">
+        <div class="container">
+            <h1>Project & Activities</h1>
+            <div class="row justify-content-around" style="margin-top: 30px; margin-bottom: 30px;">
+                <div class="col-sm-3">
+                    <div class="card text-center" data-toggle="modal" data-target="#musicModal">
+                        <img src="./img/music1.jpg" class="card-img-top" alt="music1">
+                        <div class="card-body">
+                            <h5 class="card-title">熱門音樂社</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card text-center" data-toggle="modal" data-target="#hungerModal">
+                        <img src="./img/hunger30_1.JPG" class="card-img-top" alt="hunger30_1">
+                        <div class="card-body">
+                            <h5 class="card-title">飢餓三十</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card text-center" data-toggle="modal" data-target="#basketballModal">
+                        <img src="./img/basketball1.JPG" class="card-img-top" alt="basketball1">
+                        <div class="card-body">
+                            <h5 class="card-title">資管系女籃</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-around" style="margin-bottom: 30px;">
+                <div class="col-sm-3">
+                    <div class="card text-center" data-toggle="modal" data-target="#campModal">
+                        <img src="./img/camp1.JPG" class="card-img-top" alt="camp1">
+                        <div class="card-body">
+                            <h5 class="card-title">2019資管營</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <a href="./bicycle.html" target="_blank">
+                        <div class="card text-center">
+                            <img src="./img/bicycle.jpg" class="card-img-top" alt="bicycle">
+                            <div class="card-body">
+                                <h5 class="card-title">ubike專案</h5>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- music Modal -->
+    <div class="modal fade" id="musicModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">熱門音樂社</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    <p>我在樂團中擔任電吉他手，因為熱音社讓我得到多次上台表演的機會，除了室內的成果發表會，也有在戶外公共區域表演的特別經驗，讓我未來面對群眾時能較為從容。</p>
+                    <p>但我在裡面學到的遠遠不只有彈吉他,更重要的是團隊合作的能力,每一次的開歌、練團,都要不斷和團員們溝通彼此的想法,除了練好自己的部份,也要協調每個人來讓最後演奏出的音樂和諧動聽。</p>
+                    <img src="./img/music1.jpg" alt="music1">
+                    <img src="./img/music2.JPG" alt="music2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- hunger Modal -->
+    <div class="modal fade" id="hungerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">飢餓三十</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <p>對我們來說是一次特別的活動，但對飢荒地區的民眾卻是每天的日常，經過這個活動讓我能跳出自己的日常舒適圈去看世界，對他人的遭遇感同身受，將來有能力也會盡力反饋社會。</p>
+                    <img src="./img/hunger30_1.JPG" alt="hunger30_1">
+                    <img src="./img/hunger30_2.JPG" alt="hunger30_2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- basketball Modal -->
+    <div class="modal fade" id="basketballModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">資管系女籃</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <p>我從小就很喜歡籃球，放學常常留在學校和同學們一起打球，因此在上大學前就非常期待加入系隊，而上了大學後練球讓我靠著運動紓解生活中的壓力，隊員們感情也很好，因此每次練球都是大學生活中最快樂的時光之一。</p>
+                    <p>隨著練球和參與各種盃賽，瞬息萬變的球場鍛鍊了我的反應敏捷度和思考速度，想要變得更強和想帶領球隊得到更好成績的決心，讓我會在練球時間以外再進行額外的自主訓練，擁有更好的自律能力。</p>
+                    <img src="./img/basketball1.JPG" alt="basketball1">
+                    <img src="./img/basketball2.png" alt="basketball2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- camp Modal -->
+    <div class="modal fade" id="campModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">2019資管營</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <p>我擔任了其中一天的活動負責人，和夥伴一起從零開始設計一個解謎遊戲，包括遊戲故事、謎題、關卡、流程、道具通通一手包辦，活動當天也要擔任場控，當整個活動順利結束後，收到參與的小隊員的反饋覺得非常有成就感。</p>
+                    <p>這次的經驗真的讓我學到很多，除了瞭解到舉辦活動的流程和應該注意的事項，和團隊的溝通也很重要，因為這是超過一百人參與的活動，不可能只靠自己完成，要學習跟夥伴共同承擔責任並努力做到最好。另外活動當天還會有許多突發狀況，所以也增強了我快速隨機應變的能力。</p>
+                    <img src="./img/camp1.JPG" alt="music1">
+                    <img src="./img/camp2.JPG" alt="music2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="row" id="contact">
+        <div class="container">
+            <h1>Contact me!</h1>
+            <p>Just sent me emails and I will get back to you as soon as possible!</p>
+            <a href="mailto:jamie20000303@gmail.com"><i class="fas fa-envelope-open-text"></i> jamie20000303@gmail.com</a>
+            <footer>
+                copyright &copy; 2019 All rights reserved | This template is made with Lin, Chia-Hsun
+            </footer>
+        </div>
+    </div>
+
+    <!-- 引用 Bootstrap 的 JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+    <!-- 自己寫的JS -->
+    <script src="./JS/index.js"></script>
+</body>
+
+</html>

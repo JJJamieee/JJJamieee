@@ -1,0 +1,18 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "Noto Sans TC", sans-serif;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+.nav-color1 {
+    background-color: #fd5967;
+}
+
+.nav-color2 {
+    background-color: #ffa6ae;
+    z-index: 9999;
+}
