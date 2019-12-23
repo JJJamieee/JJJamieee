@@ -1,0 +1,39 @@
+@keyframes run {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: -476px;
+    }
+}
+
+@keyframes jump {
+    0% {
+        background-position: 0;
+        margin-bottom: 0;
+    }
+    100% {
+        background-position: -295px;
+        margin-bottom: 100px;
+    }
+}
+
+.garfield-run {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 150px;
+    bottom: 100px;
+    background: url("../img/garfield_run.png") 0 0 no-repeat;
+    animation: run 0.4s steps(8) infinite;
+}
+
+.garfield-jump {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 150px;
+    bottom: 100px;
+    background: url("../img/garfield_jump2.png") 0 0 no-repeat;
+    animation: jump 0.3s steps(5) infinite alternate;
+}

@@ -1,0 +1,20 @@
+@keyframes move {
+    from {
+        left: 1200px;
+    }
+    to {
+        left: -40px;
+    }
+}
+
+.obstacle-move1 {
+    position: absolute;
+    bottom: 100px;
+    animation: move linear forwards 3s;
+}
+
+.obstacle-move2 {
+    position: absolute;
+    bottom: 115px;
+    animation: move linear forwards 3s;
+}
