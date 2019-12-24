@@ -39,5 +39,5 @@ $(() => {
     }
 
     // 讓天空圖片循環移動
-    setInterval(sky_move, 1000);
+    setInterval(sky_move, 1500);
 })
