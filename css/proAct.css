@@ -1,30 +1,44 @@
+#pro-act {
+    background-color: #e0e0e0;
+}
+
 div#pro-act>div>h1 {
     margin-top: 30px;
     text-align: center;
-    color: #2c4e87;
+    color: #21314b;
 }
 
 .card {
     height: 290px;
     width: 270px;
-    color: #2c4e87;
+    color: #6a4e38;
     box-shadow: 4px 4px 2px 0px #c3c3c3;
     cursor: pointer;
+    overflow: hidden;
 }
 
 div.card>img {
     height: 200px;
+    transition: 1s ease;
+}
+
+.card-img-hover {
+    transform: scale(1.2);
+}
+
+.card-img-pos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-title {
     margin-top: 10px;
 }
 
-.card-hover {
-    height: 320px;
-    width: 330px;
-    background-color: #148cea;
-    color: #ff938c;
+.card-hover-color {
+    background-color: #6a4e38;
+    color: #ffffff;
 }
 
 div.modal-body>img {
@@ -44,6 +58,11 @@ h5.modal-title {
     color: #2c4e87;
 }
 
-.modal {
-    margin-top: 50px;
+@media(max-width: 768px) {
+    .card-center {
+        margin-left: 40px;
+    }
+    .card-gap {
+        margin-bottom: 30px;
+    }
 }
