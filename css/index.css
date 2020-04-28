@@ -4,15 +4,21 @@ body {
 
 footer {
     text-align: center;
-    color: #ffffff;
+    color: #cfcfcf;
     margin-top: 100px;
 }
 
 .nav-color1 {
-    background-color: #fd5967;
+    background-color: #6a4e38;
 }
 
 .nav-color2 {
-    background-color: #ffa6ae;
-    z-index: 9999;
+    background-color: #c18252;
+    /* z-index: 99; */
+}
+
+@media(max-width: 768px) {
+    footer {
+        margin-top: 80px;
+    }
 }
