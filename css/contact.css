@@ -10,18 +10,11 @@ div#contact>div {
 
 div#contact>div>h1 {
     margin-top: 60px;
-    color: #ffa6ae;
+    color: #cfcfcf;
     ;
 }
 
-div#contact>div>p {
-    font-size: 120%;
-    color: #e64654;
-    margin-top: 10px;
-    margin-bottom: 80px;
-}
-
 div#contact>div>a {
-    color: #ff6875;
+    color: #c18252;
     font-size: 150%;
 }
