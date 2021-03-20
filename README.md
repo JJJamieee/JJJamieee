@@ -36,7 +36,3 @@
     - https://www.cadiis.com.tw/design-trends/685-rwd-web-design-infographic
     - https://www.ibest.tw/page01.php
     - https://tw.alphacamp.co/blog/rwd-responsive-web-design-introduction
-
-## 筆記
-- 圖片重疊效果：用z-index，越大越上層
-- 幫card弄陰影效果
