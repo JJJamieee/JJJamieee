@@ -1,29 +1,6 @@
-# 前端程設HW4 個人履歷
+# Lin, Chia-Hsun's personal page
 
-## 內容大綱
-
-- 標題
-    - 名字：林佳勳 Lin, Chia-Hsun
-    - 簡介：簡單介紹自己
-
-- About Me
-    - 學歷：高雄女中、國立台灣大學資管系
-    - 社團與活動：熱門音樂社、資管系女籃、2019資管營工人
-    - 技能：C++、Python、R、HTML/CSS、JavaScript
-    - 語言能力：中文、台語、英語(多益金色證書870分)
-
-- Project & Activities
-    - 熱音社：pic*2
-    - 女籃：pic*2
-    - 資管營：pic*2
-    - ubike project
-    - 加菲貓小遊戲
-
-- Contact
-    - email：b07705033@ntu.edu
-    - 手機
-
-## 說明文件
+## 程式說明
 
 - Navbar
     - 滑動到頁面不同區塊不同標籤會變active(刪除)
